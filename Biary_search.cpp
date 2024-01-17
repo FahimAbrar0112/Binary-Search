@@ -10,7 +10,8 @@ void Binary_search(vector<int>&v , int to_find)
         int mid = (hi+lo)/2;
         //
         if(v[mid]<to_find)  
-          lo=mid+1;   
+          lo=mid+1;  
+          //Change 
         else
           hi=mid;  
     }
